@@ -1,125 +1,37 @@
-/*basic style*/
-    * {
-        box-sizing: border-box;
-    }
+<!DOCTYPE html>
+<html>
+<head>
 
-    body {
-        background-color: white;
-    }
+<title>Responsive Layout</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css">
 
-    h1 {
-       margin-bottom: 15px;
-    text-align: center;
-    color: #ff4532;
-    font-size: 50px;
-    }
+</head>
+<body>
+<h1>Our Menu</h1>
 
-    section {
-        position: relative;
-        padding: 15px;
-        width: 90%;
-    }
 
-    p {
-        position: relative;
-        clear: right;
-    }
 
-    div {
-        position: relative;
-        background-color: gray;
-        border: 3.5px solid black;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: auto;
-    }
+  <div class="col-lg-4 col-md-6 col-sm-12">
+  	<div class="box">
+  		<p class="content-name name1">Hamburger</p>
+  		<p class="content">Hamburger is made up of coleslaw, pickles, beef, cheese and french fries.</p>
+  	</div>
+  </div>
 
-    .sub1 {
-        float: right;
-        width: 100px;
-        padding: 5px;
-        margin: -3px -3px 0px;
-        border: 3.5px solid black;
-        text-align: center;
-        font-size: 125%;
-        font-weight: bold;
-        background-color: #FFB6C1;
+  <div class="col-lg-4 col-md-6 col-sm-12">
+  	<div class="box">
+   		<p class="content-name name2">Chickenburger</p>
+   		<p class="content">Chickenburger is made up of coleslaw,pickes, chicken,sauce and french fries.</p>
+  	</div>
+  </div>
 
-    }
+  <div class="col-lg-4 col-md-12 col-sm-12">
+  	<div class="box">
+  		<p class="content-name name3">Fishburger</p>
+  		<p class="content">Fishburger is made up of coleslaw, pickes, fish, sauce and french fries.</p>
+  	</div>	
+  </div>
 
-    .sub2 {
-        float: right;
-        color: white;
-        width: 100px;
-        padding: 5px;
-        margin: -3px -3px 0px;
-        border: 3.5px solid black;
-        text-align: center;
-        font-size: 125%;
-        font-weight: bold;
-        background-color: #FF0000;
-
-    }
-
-    .sub3 {
-        color: black;
-        float: right;
-        width: 100px;
-        padding: 5px;
-         margin: -3px -3px 0px;
-        border: 3.5px solid black;
-        text-align: center;
-        font-size: 125%;
-        font-weight: bold;
-        background-color: rgb(223, 212, 121);
-
-    }
-
-    .content {
-        padding: 5px;
-        border: none;
-        background-color: gray;
-        font-family: Helvetica;
-        color: black;
-        margin: 3px ;
-        height: 150px;
-        overflow: auto;
-    }
-
-    .row {
-        width: 90%;
-    }
-
-    /*desktop version*/
-    @media (min-width: 992px) {
-        .column-lg-4 {
-            float: left;
-            width: 33.33%;
-        }
-    }
-
-    /*tablet version*/
-    @media (min-width: 768px) and (max-width: 991px) {
-        .colmn-md-6 {
-            float: left;
-            width: 50%;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .colmn-md-12 {
-            float: left;
-            width: 100%;
-            margin-left: auto;
-            margin-right: auto;
-        }
-    }
-
-    /*mobile version*/
-    @media (max-width: 767px) {
-        .colmn-sm-12 {
-            float: left;
-            width: 100%;
-        }
-    }
+</body>
+</html>
